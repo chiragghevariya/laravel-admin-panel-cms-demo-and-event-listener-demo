@@ -1,0 +1,615 @@
+body{
+    background-color: #FBFBFB;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+a{
+	color: #0ba5b5;
+}
+button, a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+hr{
+	border-top: 1px solid #666;
+}
+
+.main-content{
+	margin-top: 20px;
+}
+
+.footer{
+	background-color: #272626;
+	padding: 15px;
+	color: #999;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.padding-5{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+.main-content{
+	min-height: 500px;
+	background-color: #f5f5f5;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.main-heading{
+	background-color:#edf9f9;
+	
+}
+
+.main-heading h1{
+	font-size: 24px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.main-heading .breadcrumb{
+	padding: 8px 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: inherit;
+    border-radius: 0; 
+    margin-top: 0;
+    float: right;
+}
+.main-heading .breadcrumb a{
+	
+}
+
+.main-heading .breadcrumb>.active{
+
+}
+
+.footer .footer-box-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} 
+.social-footer i{
+	font-size: 24px;
+	color: #ccc;
+	padding: 5px;
+}
+
+.social-footer a:hover i{
+	color: orange;
+}
+
+.btn-block{
+	width: 100%;
+}
+/* Home Slider */
+#banner-slider .carousel-control.left, .carousel-control.right {
+	background-image: none;
+	width: 80px;
+}
+
+#banner-slider.carousel, #banner-slider.carousel .item { 
+	height: 350px;
+	margin: 0;
+}
+
+#banner-slider .carousel-caption-main {
+	width: 100%; 
+	background:url("../images/red-layer.png") no-repeat;
+	background-size: cover;
+	background-position: right;
+	position: relative; 
+	height: 100%;
+	float: right;
+	opacity: 0.8;
+}
+ 
+
+#banner-slider .carousel-caption {
+    width: 100%;
+    display: table; 
+    height: auto;
+    margin: 0;
+    padding-bottom: 0; 
+    position: absolute; 
+    right: 35px;
+    float: none; 
+    top: 50%;
+    margin: 0;
+    text-align: right;
+    bottom: 0;
+    left: inherit;
+    margin-top:-110px; 
+}
+
+
+
+#banner-slider .carousel-indicators li {
+	border-radius: 0;
+}
+#banner-slider .carousel-indicators .active {
+	background-color: var(--main-theme-color);
+}
+
+#banner-slider .carousel-caption h2 {
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 28px;
+}
+
+#banner-slider .carousel-caption p {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+#ad-list.owl-carousel.owl-drag .owl-item {
+    width: 100% !important;
+}
+
+.btn-social{
+	background-color: blue;
+	color: #fff;
+	font-size: 14px; 
+	margin-top: 15px;
+}
+.btn-social:hover,.btn-social:active,.btn-social:visited {
+	color: #f2f2f2;
+}
+.btn-social i{
+	font-size: 20px;
+	margin-right: 5px;
+}
+.btn-social span{
+	vertical-align: top;
+}
+.btn-fb{
+	background-color: #3B579D;
+}
+.btn-google{
+	background-color:#C23321;
+}
+
+/* Profile Page starts */
+.profile-page small{
+	text-transform: uppercase;
+}
+
+/* Select2 */
+.select2{
+	width: 100%;
+}
+
+
+.course-row{
+	border: 1px solid #dfdfdf;
+	margin-bottom: 20px;
+}
+.college-section{
+    /*max-width: 230px;*/
+    padding: 5px;
+    background: #f9f9f9;
+    overflow: hidden;
+    color: #333;
+    border-bottom: 1px solid #dfdfdf;
+    padding-left: 170px;
+    position: relative;
+    min-height:100px;
+    cursor: pointer;
+}
+.college-section.first
+{
+    margin-left:0px;
+}
+.college-section i{
+    color: #FFAC15;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+.college-section .c-cover-img {
+    background: url("../../calendar/img/group-img1.png") no-repeat;
+    height: 112px;
+    width: 150px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 0;
+}
+
+.college-section .clg-heading{
+    color: #1f2532;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.college-section .clg-heading a{
+	color: #4c4c4c;
+}
+
+.college-section .clg-heading span{
+	font-size: 14px;
+	color: #999;
+}
+
+.college-section .us-location{
+    font-size: 12px;
+}
+
+.course-row .course-section{
+	padding: 10px;
+	background-color: #f1f1f1; 
+}
+
+.course-row .course-section .title a{
+	font-weight: normal;
+    color: #00a5b5;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    display: inline-block;
+    word-break: normal;
+    position: relative;
+}
+
+.course-row .course-section p{
+    margin-bottom: 5px;
+
+}
+
+.search-page{
+    margin-bottom: 20px;
+}
+
+.search-page .page-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.course-inf {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.course-inf>i {
+    display: inline-block;
+    padding-right: 10px;
+    color: #999;
+    height: 9px;
+    font-weight: 400;
+    border-right: 1px solid #999;
+    line-height: 9px;
+    margin-right: 10px;
+}
+
+.course-searchbar{
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #48C3AF;
+}
+.course-searchbar .col-sm-*{
+    height: 90px;
+}
+
+.notifyjs-wrapper{
+    z-index: 4 !important;
+}
+
+.tab-content{
+    padding: 15px;
+}
+
+.college-details-page .tab-content .tab-pane{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.college-details-page .nav-tabs li{
+  display: inline-block;
+
+}
+
+#college_courses .course-section{
+  background: #f2f2f2;
+  padding: 10px;
+  border: 2px solid #ddd;
+  margin-bottom: 10px;
+}
+#college_courses .title{
+  padding-top: 0;
+}
+
+#college_events .event-section{
+  background: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  height: 150px;
+  overflow: hidden;
+}
+
+#college_events .event-section h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f6a903;
+}
+
+#college_facilities .facility-section{
+  text-align: center;
+}
+
+#college_facilities .f-icon{
+  color:#989898;
+  font-size: 30px;
+}
+
+#college_facilities .f-name{
+      font-size: 18px;
+    margin-top: 10px;
+    color: #6b6b6b;
+}
+
+.course-details-page .nav-tabs>.nav-item>.nav-link.active{
+    border: 1px solid #fff;
+}
+
+.breadcrumb{
+    margin:15px;
+    margin-top: 120px;
+}
+
+.college_events{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    overflow: hidden;  
+}
+.college_events .event-section{
+  background: #fff;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.college_events h2{
+    color: #00a5b5;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.college_events .head{
+    font-size: 13px;
+    letter-spacing: .5px;
+    color: #4d586c;
+    font-weight: 900;
+    background-color: #f7f7f7;
+    padding: 15px 13px;
+    margin-bottom: 0;
+}
+
+#course-filters a {
+    color: #999;
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    padding: 4px 26px 4px 6px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+#course-filters a i {
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    display: inline-block;
+    font-size: 14px;
+    color: #949494;
+}
+
+#course-filters a:hover {
+    text-decoration: line-through;
+}
+
+.no-records{
+        text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.compare-bot-sticky {
+    position: fixed;
+    background:#999;
+    left: 0;
+    top: 30%;
+    margin: 0 auto;
+    z-index: 97;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3)
+}
+
+.compare-bot-sticky.noshadow {
+    box-shadow: none
+}
+
+.compare-sticky-items {
+    float: left;
+    background:#e6e6e6;
+    box-sizing: border-box
+}
+
+.clgs-added {
+    display: block
+}
+
+.added-clgs {
+    width: 200px;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 16px 0;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block
+}
+
+.added-clgs .c-title{
+    font-size: 11px;
+}
+.btn-col {
+    width: 160px;
+    display: block;
+    border-right: 0
+}
+
+.num-to-add {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #e5e4e6;
+    color: #f5f5f6;
+    display: block;
+    line-height: 48px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin: 9px auto 0;
+    background: #e6e5e5
+}
+
+.ready-to-compare {
+    display: block;
+    width: 160px;
+    overflow: hidden;
+    text-decoration: none!important;
+    color: #00a5b5!important;
+    font-size: 12px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    font-weight: 600
+}
+
+.show-hide-btn {
+    width: 28px;
+    float: right;
+    height: 75px;
+    padding: 19px 0 0 1px;
+    color: #fff!important;
+    background: #999;
+    text-align: center;
+    text-decoration: none!important;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+
+.show-cmpre-btn {
+    width: 107px;
+    float: right;
+    height: 47px;
+    padding: 14px 0 0 0;
+    color: #fff!important;
+    background: #999;
+    text-align: center;
+    text-decoration: none!important;
+    display: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    -moz-box-shadow: 0 -1px 4px #b3b2b2;
+    -webkit-box-shadow: 0 -1px 4px #b3b2b2;
+    box-shadow: 0 -1px 4px #b3b2b2
+}
+
+.clgs-added .close-icon {
+    color: #8e8e8e!important;
+    background: 0 0;
+    text-decoration: none!important;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    line-height: 14px;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    right: 5px
+}
+
+.cmpre-col {
+    display: block
+}
+
+.cmpre-col .cmpre-btn {
+    display: block;
+    background: #eea234;
+    padding: 7px 15px;
+    margin: 5px auto 4px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.cmpre-col .link {
+    font-size: 12px;
+    color: #00a5b5;
+    line-height: 20px;
+    display: block!important;
+    text-align: center;
+    text-decoration: none!important;
+    font-weight: 400
+}
+
+
+#_cmpSticky .show-arr,
+.hide-arr {
+    background-position: -60px -195px;
+    width: 13px;
+    height: 7px;
+    margin-right: 8px;
+    position: relative;
+    top: -2px
+}
+
+#_cmpSticky .hide-arr {
+    background-position: -43px -195px
+}
+
+.show-cmpre-btn .show-arr {
+    margin-left: 8px;
+    margin-right: 0
+}
+
+
+#_cmpBt2 .fa{
+    font-size: 22px;
+    vertical-align: top;
+    padding-left: 10px;
+}

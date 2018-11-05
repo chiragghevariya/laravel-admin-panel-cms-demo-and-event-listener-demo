@@ -1,0 +1,10 @@
+/* 29-8-2017 */
+.image-outer {
+  position: relative;
+}
+
+.image-outer i {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}

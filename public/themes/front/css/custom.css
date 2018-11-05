@@ -1,0 +1,277 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+.modal{
+	z-index: 100000;
+}
+
+#main_menu{
+    padding-top: 80px;
+}
+#hero_in{
+    height: 180px;
+}
+
+#hero_in .wrapper h1 {
+    color: #fff;
+    font-size: 42px;
+    font-size: 2rem;
+    text-transform: unset;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#courses_all .box_list{
+	min-height: 250px;
+}
+#courses_all .box_list figure{
+	min-height: 260px;
+}
+
+#courses_all .box_list .wrapper{
+	min-height: 180px;
+}
+
+#course-filters a {
+    color: #999;
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    padding: 4px 26px 4px 6px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+#course-filters a i {
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    display: inline-block;
+    font-size: 14px;
+    color: #949494;
+}
+
+#course-filters a:hover {
+    text-decoration: line-through;
+}
+
+.no-records{
+        text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.compare-bot-sticky {
+    position: fixed;
+    background:#999;
+    left: 0;
+    top: 30%;
+    margin: 0 auto;
+    z-index: 97;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3)
+}
+
+.compare-bot-sticky.noshadow {
+    box-shadow: none
+}
+
+.compare-sticky-items {
+    float: left;
+    background:#e6e6e6;
+    box-sizing: border-box
+}
+
+.clgs-added {
+    display: block
+}
+
+.added-clgs {
+    width: 200px;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 16px 0;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block
+}
+
+.added-clgs .c-title{
+    font-size: 11px;
+}
+.btn-col {
+    width: 160px;
+    display: block;
+    border-right: 0
+}
+
+.num-to-add {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #e5e4e6;
+    color: #f5f5f6;
+    display: block;
+    line-height: 48px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin: 9px auto 0;
+    background: #e6e5e5
+}
+
+.ready-to-compare {
+    display: block;
+    width: 160px;
+    overflow: hidden;
+    text-decoration: none!important;
+    color: #00a5b5!important;
+    font-size: 12px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    font-weight: 600
+}
+
+.show-hide-btn {
+    width: 28px;
+    float: right;
+    height: 75px;
+    padding: 19px 0 0 1px;
+    color: #fff!important;
+    background: #999;
+    text-align: center;
+    text-decoration: none!important;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+
+.show-cmpre-btn {
+    width: 107px;
+    float: right;
+    height: 47px;
+    padding: 14px 0 0 0;
+    color: #fff!important;
+    background: #999;
+    text-align: center;
+    text-decoration: none!important;
+    display: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    -moz-box-shadow: 0 -1px 4px #b3b2b2;
+    -webkit-box-shadow: 0 -1px 4px #b3b2b2;
+    box-shadow: 0 -1px 4px #b3b2b2
+}
+
+.clgs-added .close-icon {
+    color: #8e8e8e!important;
+    background: 0 0;
+    text-decoration: none!important;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    line-height: 14px;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    right: 5px
+}
+
+.cmpre-col {
+    display: block
+}
+
+.cmpre-col .cmpre-btn {
+    display: block;
+    background: #eea234;
+    padding: 7px 15px;
+    margin: 5px auto 4px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.cmpre-col .link {
+    font-size: 12px;
+    color: #00a5b5;
+    line-height: 20px;
+    display: block!important;
+    text-align: center;
+    text-decoration: none!important;
+    font-weight: 400
+}
+
+
+#_cmpSticky .show-arr,
+.hide-arr {
+    background-position: -60px -195px;
+    width: 13px;
+    height: 7px;
+    margin-right: 8px;
+    position: relative;
+    top: -2px
+}
+
+#_cmpSticky .hide-arr {
+    background-position: -43px -195px
+}
+
+.show-cmpre-btn .show-arr {
+    margin-left: 8px;
+    margin-right: 0
+}
+
+
+#_cmpBt2 .fa{
+    font-size: 22px;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+header.header.sticky {
+  background: #564889;
+  
+  padding: 15px 20px;
+  margin-bottom: 100px;
+}
+
+#hero_in.general:before{
+    background:transparent;
+}
+
+#hero_in .wrapper h1{
+    margin-top: 60px;
+}
+
+.modal-header{
+    background: -webkit-linear-gradient(left, #480048, #c04848);
+    background: linear-gradient(to right, #480048, #c04848);
+    border-bottom: 1px solid #e9ecef;
+}
+
+.modal-header .modal-title{
+    color: #fff;
+}
+
+.modal-header .close{
+    color: #fff;
+}
+
+.list-custom{
+    list-style: outside;
+    margin: 0 15px;
+    padding: 0;
+}

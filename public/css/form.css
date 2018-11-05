@@ -1,0 +1,156 @@
+#regFormug {
+  background-color: #ffffff;
+  margin: 0px auto;
+  font-family: Raleway;
+  padding: 5px;
+  width: 70%;
+  min-width: 300px;
+}
+
+.ug h1 {
+  text-align: center; 
+  color: black; 
+}
+
+
+/* Mark input boxes that gets an error on validation: */
+input.invalidug,select.invalidug {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tabug {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  /*font-family: Raleway;*/
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtnug {
+  background-color: #bbbbbb;
+}
+#submitBtnug{
+  display: none;
+
+}
+/* Make circles that indicate the steps of the form: */
+.stepug {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:blue;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.stepug.activeug {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.stepug.finishug {
+  background-color: green;
+}
+#regFormpg {
+  background-color: #ffffff;
+  margin: 0px auto;
+  font-family: Raleway;
+  padding: 5px;
+  width: 70%;
+  min-width: 300px;
+}
+
+.pg h1 {
+  text-align: center; 
+  color: black; 
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalidpg,select.invalidpg {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tabpg {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  /*font-family: Raleway;*/
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtnpg {
+  background-color: #bbbbbb;
+}
+#submitBtnpg{
+  display: none;
+
+}
+/* Make circles that indicate the steps of the form: */
+.steppg {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: blue;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.steppg.activepg {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.steppg.finishpg {
+  background-color: red;
+}
+
+/*remove yellow bacgrouds ends here */
+
+/*icons inside input fields*/
+.has-feedback i{
+text-align: left;float: left;margin-top: -30px;padding: 5px;margin-left: 5px;font-size: inherit;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+.has-feedback i.fa{
+  width: 0px;
+  height: 0px;
+}
+/*to display form number and complete percentage*/
+.form-details .number-left{
+float: left;font-size: 14px;
+padding: 5px;
+margin: 0px;
+}
+.form-details .number-right{
+float: right;font-size: 14px;
+padding: 5px;
+margin: 0px;
+
+}

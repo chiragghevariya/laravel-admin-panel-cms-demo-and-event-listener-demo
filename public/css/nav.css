@@ -1,0 +1,344 @@
+/*nav1 css style starts*/
+.nav1{
+/*
+	height: 80px;
+*/
+height: 50px;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+
+}
+.nav1 .navbar-brand{
+-webkit-box-shadow: 0px 13px 26px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 13px 26px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 13px 26px 0px rgba(0,0,0,0.4);
+    margin-left: 35px;
+        padding-top: 1.3125rem;
+}
+.nav1 .navbar-brand img{
+	height: 83px;
+    width: 148px;
+    background: #fff;
+    padding: 10px;
+    padding-top: 21px;
+} 
+
+.nav1 .nav-item .nav-link{
+	font-size: 1rem !important; 
+}
+.nav1 ul.navbar-nav {
+    
+    display: inline !important;
+}
+
+.nav1 ul.navbar-nav li.nav-item {
+    float: left !important;
+}
+
+.nav1 ul.navbar-nav li.nav-item a.nav-link {
+    display: block;
+   
+}
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+.nav1{
+
+	height: 45px;
+	padding: 0px;margin: 0px;
+}
+/*to make logo float left add below code*/
+.nav1 .navbar-brand{
+	position: fixed;
+	margin-left: 100px;
+	-webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow: none;
+ 
+        padding-top: 0.3125rem;
+}
+/*ends here for float left logo*/
+.nav1 .navbar-brand img{
+	height: 35px;
+    width: 100px;
+    background: transparent;
+    padding-top: 0px;
+    padding: 0px;
+	
+} 
+
+.nav1 .nav-item .nav-link{
+	font-size: 0.8rem;
+	padding: 5px 10px;
+	margin-right: 10px;: 
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+.nav1 .navbar-brand{
+
+}
+
+ }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+.nav1{
+
+	height: 45px;
+	padding: 0px;margin: 0px;
+}
+/*to make logo float left add below code*/
+.nav1 .navbar-brand{
+	position: fixed;
+	margin-left: 100px;
+}
+/*ends here for float left logo*/
+.nav1 .navbar-brand img{
+	height: 35px;
+	
+} 
+
+.nav1 .nav-item .nav-link{
+	font-size: 0.8rem;
+	padding: 5px 10px;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+
+ }
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.nav1{
+
+	height: 45px;
+	padding: 0px;margin: 0px;
+}
+/*to make logo float left add below code*/
+.nav1 .navbar-brand{
+	position: fixed;
+	margin-left: 60px;
+}
+/*ends here for float left logo*/
+.nav1 .navbar-brand img{
+	height: 35px;
+	
+} 
+
+.nav1 .nav-item .nav-link{
+	font-size: 0.8rem;
+	padding: 5px;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    
+  margin-left: 5px;
+}
+
+ }
+ /*nav1 css ends here */
+ /****---------------------------------------****-------------------------------------****/
+ /*nav2 css starts*/
+ .nav2{
+ 	/*margin-top: 80px;*/
+ 	margin-top: 50px;
+ 	z-index: 1;
+ 	padding: 0px;
+ 	background-color: #343a40;
+ }
+ /*main-headings in nav 2*/
+ .nav2 .nav-item .nav-link{
+	font-size: 18px !important;
+	margin-left: 20px;
+}
+ .nav2 .nav-item .nav-link:hover{
+ 	color: white;
+ }
+.nav2-padding{
+	padding-left: 350px;
+}
+/*link inside main heading dropsown*/
+
+.dropdown-menu .dropdown-list{
+	font-size: 16px;
+}
+
+/*on toggle  width size less than 1000px*/
+#navbarsExample10{
+
+}
+
+
+
+/*on hover display main heading content which is in dropdown-menu*/
+
+.dropdown:hover .dropdown-menu {
+	margin-top: 0;
+    display: block;
+}
+/*dopdown content inside main heading  courses dropdown-menu*/
+.dropdown-menu.courses{
+	left: -760px;
+min-width: 1200px;
+color: #212529;
+padding-top: 20px;
+padding-bottom: 40px;
+
+}
+.dropdown-menu.courses ul{
+	list-style: none;
+	margin: 0px;
+	padding: 5px;
+}
+.courses .nav-link.course-heading{
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px !important;
+}
+.courses .nav-link.course-heading:hover{
+	color: red;
+}
+.courses .course-list{
+	margin:0px;
+	padding: 0px;
+}
+.course-list .nav-item a{
+	color: blue;
+	font-size: 14px;
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+.nav2-padding{
+	padding-left: 250px;
+}
+.dropdown-menu.courses{
+	left: -570px;
+
+min-width: 900px;
+height: 400px;
+overflow-y: scroll;
+overflow-x: hidden;
+color: #212529;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+
+.courses .course-list{
+	margin:0px;
+	padding: 0px; 
+}
+
+ }
+ /* Medium devices (tablets, less than 992px) when dropdown from toggle button,collapsable nav bar*/
+ @media (max-width: 991.98px) { 
+
+.nav2{
+ 	margin-top: 45px;padding: 0px;
+ 	width: 200px;
+ background: transparent;
+ } 
+  .nav2 .nav-item .nav-link{
+	font-size: 0.8rem;
+}
+.nav2-padding{
+	padding-left: 0px;
+	 background: #2a3d46;
+
+}
+.dropdown-menu .dropdown-list{
+	font-size: 14px;
+}
+.dropdown-menu.courses{
+	left:0px;
+
+min-width:700px;
+height: 250px;
+overflow-x: scroll;
+overflow-y: scroll;
+color: #212529;
+padding-top: 20px;
+padding-bottom: 40px;
+line-height: 1.2;
+}
+.courses .course-list{
+	margin:0px;
+	padding: 0px; 
+
+}
+.courses .nav-link.course-heading{
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+.course-list .nav-item a{
+	color: blue;
+	font-size: 12px;
+
+}
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+.nav2{
+ 	margin-top: 45px;padding: 0px;
+ } 
+  .nav2 .nav-item .nav-link{
+	font-size: 0.8rem;
+}
+
+.dropdown-menu.courses{
+	left:0px;
+
+min-width:550px;
+height: 250px;
+overflow-x: scroll;
+overflow-y: scroll;
+color: #212529;
+padding-top: 20px;
+padding-bottom: 40px;
+line-height: 1.2;
+}
+
+ }
+ @media (max-width: 575.98px) { 
+ .nav2{
+ 	margin-top: 45px;padding: 0px;
+ } 
+  .nav2 .nav-item .nav-link{
+	font-size: 0.8rem;
+}
+
+.dropdown-menu.courses{
+	left:0px;
+
+min-width:200px;
+height: 200px;
+overflow-x: scroll;
+overflow-y: scroll;
+color: #212529;
+padding-top: 20px;
+padding-bottom: 40px;
+line-height: 1.2;
+}
+  }
+
+/****---------------------------------------****-------------------------------------****/
+ /*nav2 css ends*/
+
+
+ 
