@@ -8,6 +8,7 @@ use Illuminate\Routing\Controller;
 use Modules\Admin\Http\Requests\LoginRequest;
 use Auth;
 use Illuminate\Support\Facades\Session;
+use App\Events\UserLoginEvent;
 
 class LoginController extends Controller
 {
@@ -94,7 +95,9 @@ class LoginController extends Controller
     public function postLogin(LoginRequest $request)
     {
         if (Auth::attempt(['email' => $request->get('email'), 'password' => $request->get('password')])) {
-            flashMessage('success',"Login Successfully Done.");
+
+            event(new UserLoginEvent(\Auth::user()));
+            // flashMessage('success',"Login Successfully Done.");
             return response()
                 ->json([
                     'message' => 'Success',

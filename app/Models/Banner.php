@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Yajra\Datatables\Datatables;
 use Crypt;
+use \App\Events\SaveDataNotificationEvent;
 
 class Banner extends Model
 {
@@ -65,11 +66,9 @@ class Banner extends Model
         // $obj->cms_id=$input['cms_id'];
         $obj->status = $input['status'];
         $obj->save();
-
-       $msg = "Banner save Successfully Done.";
-        flashMessage('success',$msg);
+        $arraData = [0=>"HI"];
+        event(new SaveDataNotificationEvent($arraData));
         return redirect()->route('admin.banners.index');
-        // return response()->json(['success' => true,'msg'=>$msg, 'status'=>1,'errors' => $errors]);
     }
     public function getBanner($id)
     {
